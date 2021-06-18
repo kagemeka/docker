@@ -42,3 +42,14 @@ $ docker plugin install rexray/s3fs \
 ```sh
 $ docker plugin ls 
 $ docker plugin enable <plugin id>
+``` 
+
+
+# start/stop docker 
+```sh
+# restart docker
+$ sudo systemctl restart docker 
+# or 
+$ sudo service docker stop 
+$ sudo service docker start 
+```
